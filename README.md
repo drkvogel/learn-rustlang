@@ -1,2 +1,6 @@
-# rustlang
-Learning Rust
+
+# learn-rustlang
+
+Notes on learning [Rust](https://www.rust-lang.org/).
+
+
