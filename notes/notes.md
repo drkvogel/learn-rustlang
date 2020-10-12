@@ -45,3 +45,33 @@ info: downloading component 'rustc'
 [Questions for embedded rust users : rust ](https://www.reddit.com/r/rust/comments/e5h69g/questions_for_embedded_rust_users/)
 [Hardware - The Embedded Rust Book ](https://docs.rust-embedded.org/book/intro/hardware.html)
 [Rust for Python Programmers  Armin Ronacher's Thoughts and Writings ](https://lucumr.pocoo.org/2015/5/27/rust-for-pythonistas/)
+
+
+
+[Rust Programming Language ](https://www.rust-lang.org/)
+[Rust: A Language for the Next 40 Years - Carol Nichols](https://www.youtube.com/watch?v=A3AdN7U24iU)
+[All About Rust](https://www.youtube.com/watch?v=FYGS2q1bljE)
+[Why would a python programmer learn rust when there are no jobs in it](https://www.youtube.com/watch?v=IYLf8lUqR40&t=205s)
+[rust-lang/rust: Empowering everyone to build reliable and efficient software. ](https://github.com/rust-lang/rust)
+[Rust (programming language) - Wikipedia ](https://en.wikipedia.org/wiki/Rust_(programming_language))
+[WebAssembly - Rust Programming Language ](https://www.rust-lang.org/what/wasm)
+[Command-line apps - Rust Programming Language ](https://www.rust-lang.org/what/cli)
+[Networking - Rust Programming Language ](https://www.rust-lang.org/what/networking)
+[Rust](https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA)
+
+
+
+
+
+
+
+---
+
+that band thing at the back of the EOCC several years ago where I went with ???
+that yorkshire geezer guitarist who lived in the room next door at bloody Benson rd...
+
+[Mad Mike - The Illuminator - Underground Resistance](https://www.youtube.com/watch?v=Vz0npX_ajzc)
+[The Tresor Track](https://www.youtube.com/watch?v=AsNpPukjBvA)
+
+garageband
+fl studio
