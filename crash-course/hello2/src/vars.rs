@@ -18,7 +18,7 @@ pub fn run() {
 
   // constant
   // const id: i32 = 001; // warning: constant `id` should have an upper case name
-  const ID: i32 = 001; 
+  const ID: i32 = 001;
 
   println!("id: {}", ID);
 
