@@ -205,6 +205,29 @@ The cornerstone of abstraction in Rust is traits:
 [Rocket - Simple, Fast, Type-Safe Web Framework for Rust ](https://rocket.rs/)
 
 
+[A trait is a collection of methods defined for an unknown type: Self](https://www.google.com/search?q=A+trait+is+a+collection+of+methods+defined+for+an+unknown+type%3A+Self&ie=UTF-8)
+[Rust - understanding traits 1 - DEV ](https://dev.to/brunooliveira/rust-understanding-traits-1-45md)
+[All About Trait Objects - ](https://brson.github.io/rust-anthology/1/all-about-trait-objects.html)
+[Traits - Rust By Example ](https://doc.rust-lang.org/rust-by-example/trait.html#:~:text=A%20trait%20is%20a%20collection,Animal%20%2C%20a%20group%20of%20methods.&text=%2F%2F%20Static%20method%20signature%3B%20%60Self,refers%20to%20the%20implementor%20type.)
+
+### rust traits vs c++ classes
+
+[rust traits vs c++ classes](https://www.google.com/search?q=rust+traits+vs+c%2B%2B+classes&ie=UTF-8)
+[Why not just add classes? - The Rust Programming Language Forum ](https://users.rust-lang.org/t/why-not-just-add-classes/4618/4)
+[McConnell’s “Code Complete”](https://www.google.com/search?q=McConnell%E2%80%99s+%E2%80%9CCode+Complete%E2%80%9D&ie=UTF-8)
+[Confusion : Struct, impl, self, trait - help - The Rust Programming Language Forum ](https://users.rust-lang.org/t/confusion-struct-impl-self-trait/3941/3)
+[Virtual Structs Part 1: Where Rust's enum shines ](http://smallcultfollowing.com/babysteps/blog/2015/05/05/where-rusts-enum-shines/)
+[Composition over inheritance - Wikipedia ](https://en.wikipedia.org/wiki/Composition_over_inheritance)
+[How to avoid/translate OOP-alike thinking when writing in Rust? : rust ](https://www.reddit.com/r/rust/comments/9h1xy8/how_to_avoidtranslate_oopalike_thinking_when/)
+[Why I’m dropping Rust : rust ](https://www.reddit.com/r/rust/comments/5295nf/why_im_dropping_rust/)
+* It doesn't support conventional OOP: can't define base methods to re-use code, traits can't access fields of implementations.
+* Can't build cyclic structures (tree of widgets with parent/child pointers).
+* Can't cast `&Rc<RefCell<T>>` as `&Rc<RefCell<Trait>>`.
+
+[Rust - For Developers with strong OOP background - Continues : rust ](https://www.reddit.com/r/rust/comments/c1s1iz/rust_for_developers_with_strong_oop_background/)
+[What are the similarities and differences between C++'s concepts and Rust's traits?](https://stackoverflow.com/questions/56045846/what-are-the-similarities-and-differences-between-cs-concepts-and-rusts-trai)
+[How to use C++ polymorphism in Rust  by Senges Alex  The Startup  Medium ](https://medium.com/swlh/how-to-use-c-polymorphism-in-rust-76e1d1a88ed1)
+[lochsh ](https://mcla.ug/blog/cpp20-concepts-are-not-like-rust-traits.html)
 
 
 
