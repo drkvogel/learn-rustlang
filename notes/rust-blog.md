@@ -1,4 +1,10 @@
 
+[Intro to web programming in Rust for NodeJS developers ](https://levelup.gitconnected.com/intro-to-web-programming-in-rust-for-nodejs-developers-1a9c048c4de1)
+[oxide rustlang](https://www.google.com/search?rlz=1C5CHFA_enGB838GB838&ei=5UuVXL2oNumW1fAP7qC84Ac&q=oxide+rustlang&oq=oxide+rustlang&gs_l=psy-ab.3..0i8i13i30l3.44010.44521..45038...0.0..0.164.642.0j4......0....1..gws-wiz.......0i71j35i304i39j0i13.CSig23dskn0)
+[Oxide: A Formal Semantics for Rust  Hacker News ](https://news.ycombinator.com/item?id=19310950)
+[rust lang](https://www.google.com/search?q=rust+lang&rlz=1C5CHFA_enGB838GB838&oq=rust+lang&aqs=chrome..69i57.1355j0j7&sourceid=chrome&ie=UTF-8)
+[Rust programming language ](https://www.rust-lang.org/)
+
 
 ### Installing gitui from source
 
