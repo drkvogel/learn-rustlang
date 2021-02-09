@@ -475,3 +475,46 @@ Oxford Rust Meetup Group
 
 [Porous Absorber - A story of Rust and WASM  Meetup ](https://www.meetup.com/Oxford-Rust-Meetup-Group/events/273451099)
 [ChrisWhealy/porous_absorber: Calculates the acoustic absorption curve of various porous absorber systems ](https://github.com/ChrisWhealy/porous_absorber)
+
+
+
+[Rust for Non-Systems Programmers ](https://becca.ooo/rustconf/2020/#/)
+[Rust for Non-Systems Programmers Rebecca Turner](https://www.google.com/search?q=Rust+for+Non-Systems+Programmers+Rebecca+Turner&ie=UTF-8)
+[RustConf 2020 - Rust for Non-Systems Programmers by Rebecca Turner](https://www.youtube.com/watch?v=BBvcK_nXUEg)
+
+things Rust can make "strikingly easy"
+
+cmd arg parsing generated from type definition
+automatic typo correction, autocompletion, generate man pages at compile time
+
+complex error report, deserialize json
+
+fancy test diffs with one line
+and a lot more
+
+solve a problem in a Rusty way
+
+I have ADHD - working memory
+powerful compiler, linter, tests
+work with the compiler
+
+rustdoc api docs mdBook
+rls language server, rust-analyzer (commumity project)
+cargo package manager, build system
+
+docs.rs
+
+boc aquarius
+ssh chrisb@office.primrose.co.uk -p 9222
+Vzf5H9dfGQ5y - yes!
+
+thread_rng
+RngCore
+uniform documentation style/interface format
+
+[Rust, WebAssembly, and the future of Serverless by Steve Klabnik](https://www.youtube.com/watch?v=CMB6AlE1QuI)
+[wasm wasi](https://www.google.com/search?q=wasm+wasi&ie=UTF-8)
+[WASI  ](https://wasi.dev/)
+
+>Rust: A language empowering everyone to build reliable and efficient software
+iterated several times
