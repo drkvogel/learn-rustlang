@@ -5,19 +5,70 @@
 [Bevy - A data-driven game engine built in Rust ](https://bevyengine.org/)
 [Introduction - Roguelike Tutorial - In Rust ](https://bfnightly.bracketproductions.com/rustbook/)
 
+```
+2022-04-23 16:59:51 kvogel@kvogel-surface-ubuntu:~/Downloads
+❯ locate -r "bevy$"
+/home/kvogel/projects/general/dev/games/day4night/bevy
+/home/kvogel/projects/general/dev/games/day4night/bevy/bevy
+/home/kvogel/projects/general/dev/learn/learn-rustlang/bevy
+/home/kvogel/projects/general/dev/learn/learn-rustlang/bevy/bevy-website/content/news/2020-08-10-introducing-bevy
+/home/kvogel/projects/general/dev/learn/learn-rustlang/bevy/bevy-website/content/news/2020-08-19-scaling-bevy
+/home/kvogel/projects/general/dev/learn/learn-rustlang/bevy/bevy-website/public/news/introducing-bevy
+/home/kvogel/projects/general/dev/learn/learn-rustlang/bevy/bevy-website/public/news/scaling-bevy
+/home/kvogel/websites/Bevy Book/127.0.0.1_1111/home/carter/code/bevy
+/home/kvogel/websites/Bevy Book/127.0.0.1_1111/news/introducing-bevy
+/home/kvogel/websites/Bevy Book/127.0.0.1_1111/news/scaling-bevy
+
+❯ ls ~/p/general/dev/games/day4night/bevy/bevy
+assets/   Cargo.lock  CHANGELOG.md        CONTRIBUTING.md  CREDITS.md  docs/    examples/  README.md     src/     tests/
+benches/  Cargo.toml  CODE_OF_CONDUCT.md  crates/          deny.toml   errors/  LICENSE    rustfmt.toml  target/  tools/
+2022-04-23 17:00:46 kvogel@kvogel-surface-ubuntu:~/Downloads
+❯ ls ~/p/general/dev/learn/learn-rustlang/bevy
+bevy.md  bevy-website/
+```
+dev/games/day4night/notes/bevy.md
+
+### bevy website local
+
+bevy website (run local):
+```
+❯ cd ~/p/general/dev/learn/learn-rustlang/bevy
+❯ zola serve
+```
+or maybe:
+```
+❯ zola serve -r ~/p/general/dev/learn/learn-rustlang/bevy
+```
+? no:
+```
+2022-01-20 18:35:54 kvogel-surface-ubuntu:~/projects/general/dev/games/day4night/bevy ±(master) ✗
+❯ zola -r ~/p/general/dev/learn/learn-rustlang/bevy/bevy-website serve
+Building site...
+Checking all internal links with anchors.
+> Successfully checked 5 internal link(s) with anchors.
+-> Creating 9 pages (0 orphan) and 19 sections
+Done in 3.4s.
+
+Listening for changes in /home/kvogel/projects/general/dev/learn/learn-rustlang/bevy/bevy-website{config.toml, content, sass, static, templates}
+Press Ctrl+C to stop
+
+Web server is available at http://127.0.0.1:1111
+```
+OK, now: `bin/bevy-website`
+dev/games/day4night/bin/bevy-website
 
 ```
-2022-01-16 23:48:11 kvogel-surface-ubuntu:~/projects/general/dev/games/day4night/bevy ±(master) ✗ 
+2022-01-16 23:48:11 kvogel-surface-ubuntu:~/projects/general/dev/games/day4night/bevy ±(master) ✗
 ❯ git clone https://github.com/bevyengine/bevy
 Cloning into 'bevy'...
-❯ cd bevy 
+❯ cd bevy
 ❯ git checkout latest
 Branch 'latest' set up to track remote branch 'latest' from 'origin'.
 Switched to a new branch 'latest'
 ```
 
 ```
-2022-01-17 06:24:37 kvogel-surface-ubuntu:~/projects/general/dev/games/day4night/bevy/bevy ±(latest) 
+2022-01-17 06:24:37 kvogel-surface-ubuntu:~/projects/general/dev/games/day4night/bevy/bevy ±(latest)
 ❯ cargo run --example breakout
    Compiling mint v0.5.8
 ...
@@ -29,7 +80,7 @@ error: build failed
 ```
 >Libudev Rust Bindings The libudev-sys crate provides declarations and linkage for the libudev C library. Following the *-sys package conventions, the libudev-sys crate does not define higher-level abstractions over the native libudev library functions. Dependencies In order to use the libudev-sys crate, you must have a Linux system with the libudev library installed where it can be found by pkg-config. To install libudev on Debian-based Linux distributions, execute the following command: `sudo apt-get install libudev-dev`. libudev is a Linux-specific package. It is not available for Windows, OSX, or other operating systems.
 ```
-2022-01-17 06:24:57 kvogel-surface-ubuntu:~/projects/general/dev/games/day4night/bevy/bevy ±(latest) 
+2022-01-17 06:24:57 kvogel-surface-ubuntu:~/projects/general/dev/games/day4night/bevy/bevy ±(latest)
 ❯ sudo apt install libudev
 ...
 ❯ cargo run --example breakout
@@ -55,6 +106,7 @@ Rust by Example: learn Rust by working through live coding examples
 [jcornaz/heron: An ergonomic physics API for bevy games. ](https://github.com/jcornaz/heron)
 [james7132/bevy-steamworks: A Bevy plugin for integrating with the Steamworks SDK ](https://github.com/james7132/bevy-steamworks)
 [Steamworks SDK (Steamworks Documentation) ](https://partner.steamgames.com/doc/sdk)
+
 [ramirezmike/not_snake_game: A snake-inspired game made in Rust using the Bevy game engine. ](https://github.com/ramirezmike/not_snake_game)
 [Not Snake by Michael Ramirez ](https://ramirezmike2.itch.io/not-snake)
 [TheRealTeamFReSh/MurderUserDungeon: A game made for the Rusty Jam https://itch.io/jam/rusty-jam ](https://github.com/TheRealTeamFReSh/MurderUserDungeon)
@@ -65,9 +117,12 @@ Rust by Example: learn Rust by working through live coding examples
 [BottledByte / Per Spatium · GitLab ](https://gitlab.com/BottledByte/per-spatium)
 [SuperiorJT/bevy_pong: Simple pong game made in Bevy Engine ](https://github.com/SuperiorJT/bevy_pong)
 [WhoisDavid/bevy-nbody: Experiments with Bevy and n-body problems ](https://github.com/WhoisDavid/bevy-nbody)
-[Ephemeris - Wikipedia ](https://en.wikipedia.org/wiki/Ephemeris)
 [insrcd/labyrinth-game ](https://github.com/insrcd/labyrinth-game)
-[Carter Anderson Bevy,](https://www.google.com/search?q=Carter+Anderson++Bevy%2C&gs_lcp=Cgdnd3Mtd2l6EAM6CggjEK4CELADECdKBAhBGAFKBAhGGABQlTpYlTpguz9oAnAAeACAAXOIAXOSAQMwLjGYAQCgAQHIAQHAAQE&sclient=gws-wiz)
+
+[Ephemeris - Wikipedia ](https://en.wikipedia.org/wiki/Ephemeris)
+>In astronomy and celestial navigation, an ephemeris (plural: ephemerides) is a book with tables that gives the trajectory of naturally occurring astronomical objects as well as artificial satellites in the sky, i.e., the position (and possibly velocity) over time.
+
+[Carter Anderson Bevy,](https://www.google.com/search?q=Carter+Anderson++Bevy)
 [Carter Anderson (@cart_cart) / Twitter ](https://twitter.com/cart_cart?lang=en)
 [cart](https://www.youtube.com/cartdev)
 
@@ -116,7 +171,7 @@ Entity is tagged with unique Hash ID
 strictly for data, no functionality
 functionality housed in Systems
 Systems iterate through any enitty with the required component
-e.g. 
+e.g.
 Component A
 Vector3 position
 Quaternion direction
