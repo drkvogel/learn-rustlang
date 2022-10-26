@@ -403,7 +403,7 @@ zsh: command not found: gitui
 
 
 [msrv rust](https://www.google.com/search?q=msrv+rust)
->Minimum Supported Rust Version (MSRV) 
+>Minimum Supported Rust Version (MSRV)
 [Latest stable rust as a MSRV policy · GitHub ](https://gist.github.com/alexheretic/d1e98d8433b602e57f5d0a9637927e0c)
 [wg/msrv.md at master · rust-embedded/wg · GitHub ](https://github.com/rust-embedded/wg/blob/master/ops/msrv.md)
 [rust/weird-exprs.rs at master · rust-lang/rust · GitHub ](https://github.com/rust-lang/rust/blob/master/src/test/ui/weird-exprs.rs#L86)
@@ -588,3 +588,188 @@ safety is not optional by default, e.g. compiler warnings - opt-out, not opt-in 
 [Functional reactive programming - Wikipedia ](https://en.wikipedia.org/wiki/Functional_reactive_programming)
 [Functional Reactive Programming (FRP)  by Navdeep Singh  Medium ](https://medium.com/@navdeepsingh_2336/functional-reactive-programming-frp-2826177b1e27)
 [Are we learning yet? ](https://www.arewelearningyet.com/)
+
+
+```
+2022-07-14 20:11:44 kvogel@kvogel-surface-ubuntu:~
+❯ cargo install du-dust
+    Updating crates.io index
+  Downloaded du-dust v0.8.1
+  Downloaded 1 crate (89.1 KB) in 0.39s
+  Installing du-dust v0.8.1
+  Downloaded crossbeam-channel v0.5.5
+  Downloaded crossbeam-utils v0.8.10
+  Downloaded either v1.7.0
+  Downloaded hashbrown v0.12.3
+  Downloaded lscolors v0.7.1
+  Downloaded indexmap v1.9.1
+  Downloaded libc v0.2.126
+  Downloaded clap_lex v0.2.4
+  Downloaded crossbeam-epoch v0.9.9
+  Downloaded thousands v0.2.0
+  Downloaded strsim v0.10.0
+  Downloaded termcolor v1.1.3
+  Downloaded rayon v1.5.3
+  Downloaded textwrap v0.15.0
+  Downloaded stfu8 v0.2.5
+  Downloaded regex-syntax v0.6.27
+  Downloaded regex v1.6.0
+  Downloaded clap v3.2.12
+  Downloaded atty v0.2.14
+  Downloaded rayon-core v1.9.3
+  Downloaded memchr v2.5.0
+  Downloaded os_str_bytes v6.2.0
+  Downloaded once_cell v1.13.0
+  Downloaded 23 crates (2.2 MB) in 1.33s
+   Compiling autocfg v1.1.0
+   Compiling libc v0.2.126
+   Compiling once_cell v1.13.0
+   Compiling crossbeam-utils v0.8.10
+   Compiling cfg-if v1.0.0
+   Compiling memchr v2.5.0
+   Compiling scopeguard v1.1.0
+   Compiling rayon-core v1.9.3
+   Compiling regex-syntax v0.6.27
+   Compiling hashbrown v0.12.3
+   Compiling os_str_bytes v6.2.0
+   Compiling bitflags v1.3.2
+   Compiling textwrap v0.15.0
+   Compiling strsim v0.10.0
+   Compiling either v1.7.0
+   Compiling termcolor v1.1.3
+   Compiling lazy_static v1.4.0
+   Compiling ansi_term v0.12.1
+   Compiling unicode-width v0.1.9
+   Compiling thousands v0.2.0
+   Compiling clap_lex v0.2.4
+   Compiling memoffset v0.6.5
+   Compiling crossbeam-epoch v0.9.9
+   Compiling indexmap v1.9.1
+   Compiling rayon v1.5.3
+   Compiling lscolors v0.7.1
+   Compiling crossbeam-channel v0.5.5
+   Compiling aho-corasick v0.7.18
+   Compiling num_cpus v1.13.1
+   Compiling atty v0.2.14
+   Compiling terminal_size v0.1.17
+   Compiling crossbeam-deque v0.8.1
+   Compiling clap v3.2.12
+   Compiling regex v1.6.0
+   Compiling stfu8 v0.2.5
+   Compiling du-dust v0.8.1
+    Finished release [optimized] target(s) in 5m 19s
+  Installing /home/kvogel/.cargo/bin/dust
+   Installed package `du-dust v0.8.1` (executable `dust`)
+2022-07-17 16:04:26 kvogel@kvogel-surface-ubuntu:~
+❯ dust
+Did not have permissions for all directories
+ 2.1G   ┌── snap                  │                                                                                                                                       █████████ │   6%
+ 1.9G   │       ┌── Bitwig        │                                                                                                                                      ░▓████████ │   5%
+ 1.9G   │     ┌─┴ multi-samples   │                                                                                                                                      ░▓████████ │   5%
+ 2.2G   │   ┌─┴ 1.0               │                                                                                                                                      ░█████████ │   6%
+ 2.2G   │ ┌─┴ installed-packages  │                                                                                                                                      ░█████████ │   6%
+ 2.2G   ├─┴ .BitwigStudio         │                                                                                                                                      ██████████ │   6%
+ 2.2G   │ ┌── installs            │                                                                                                                                      ██████████ │   6%
+ 2.3G   ├─┴ .asdf                 │                                                                                                                                      ██████████ │   7%
+ 2.5G   │ ┌── share               │                                                                                                                                     ███████████ │   7%
+ 2.5G   ├─┴ .local                │                                                                                                                                     ███████████ │   7%
+ 4.6G   ├── .config               │                                                                                                                             ███████████████████ │  13%
+ 2.0G   │           ┌── @FileStore│                                                                                                             ░░░░░░▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓█████████ │   6%
+ 2.0G   │         ┌─┴ hicss       │                                                                                                             ░░░░░░▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓█████████ │   6%
+ 2.1G   │       ┌─┴ files         │                                                                                                             ░░░░░░▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓█████████ │   6%
+ 2.3G   │       ├── repos         │                                                                                                             ░░░░░░▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓██████████ │   6%
+ 4.7G   │     ┌─┴ uhs             │                                                                                                             ░░░░░░▒▒▒▒▒▒▒▒▓████████████████████ │  13%
+ 4.9G   │   ┌─┴ work              │                                                                                                             ░░░░░░▒▒▒▒▒▒▒▒█████████████████████ │  14%
+ 6.9G   │ ┌─┴ general             │                                                                                                             ░░░░░░█████████████████████████████ │  20%
+ 8.3G   ├─┴ projects              │                                                                                                             ███████████████████████████████████ │  24%
+  34G ┌─┴ .                       │████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ │ 100%
+```
+
+[Is Rust the perfect programming language? | by Waracle | Medium ](https://medium.com/@WaracleUK/is-rust-the-perfect-programming-language-124c51c75067)
+
+
+Carbon?? Rust, Go? Aargh!
+Forget [Google Carbon](/dev/lang/carbon/carbon.md)
+>If you can use Rust, ignore Carbon.
+
+rust
+[Rust Day on Google Open Source Live, Thu, Sep 1, 2022, 9:00 AM | Meetup ](https://www.meetup.com/google-open-source/events/287435626/?read_xtd=gatlbWFpbF9jbGlja9oAJGUzYmNhMmNmLWY3MjUtNDgxYi1hNjZmLWQxM2YxODUxMjhiNw)
+[Home - Rust Day on Google Open Source Live ](https://opensourcelive.withgoogle.com/events/rust-day-2022)
+https://www.youtube.com/GoogleOpenSource
+
+[Rust ❤️ C++ ](https://cxx.rs/)
+[Rustaceans ](https://rustaceans.org/)
+rust pong, astro blaster, day4night
+[google/autocxx: Tool for safe ergonomic Rust/C++ interop driven from existing C++ headers ](https://github.com/google/autocxx)
+[Rust Day on Google Open Source Live, Thu, Sep 1, 2022, 9:00 AM | Meetup ](https://www.meetup.com/google-open-source/events/287435626/)
+[Home - Rust Day on Google Open Source Live ](https://opensourcelive.withgoogle.com/events/rust-day-2022?utm_sourceutm_mediumutm_campaign=Rust%2BDay)
+
+[Should we call Rust a Failed Programming Language? ](https://analyticsindiamag.com/should-we-call-rust-a-failed-programming-language/)
+>Google engineer Chandler Carruth advised those using ‘Rust’ to continue using it. Carbon is for developers with large codebases in C++, which are difficult to convert into Rust.
+>Rust is difficult. It has a complex syntax and a steep learning curve. It is designed to uniquely solve some very challenging problems in programming. However, as a beginner, using Cuda or MPI on Rust is not very simple compared to the other options like Swift and Go. Moreover, it is slow. Rust is a snail compared to other languages. Even for small projects, the compile times are painfully long, and runtime measurements show that Rust is less efficient than the C programs.
+[The Rust Programming Language ](https://www.reddit.com/r/rust/)
+[An almost religious case for Rust | by Alexander Sidorov | Sep, 2022 | Medium ](https://medium.com/@siberianguy/an-almost-religious-case-for-rust-e4c4764acd8d)
+[Why is Rust the Most Loved Programming Language? ](https://matklad.github.io/2020/02/14/why-rust-is-loved.html)
+[For Complex Applications, Rust is as Productive as Kotlin ](https://ferrous-systems.com/blog/rust-as-productive-as-kotlin/)
+
+astroblaster... bevy 2d tutorial
+
+[Rust for Old People. How life after C, C++, and Python feels… | by Doug Foo | CodeX | Medium ](https://medium.com/codex/rust-for-old-people-516fc72b2934)
+[algorithm - What is tail call optimization?](https://stackoverflow.com/questions/310974/what-is-tail-call-optimization)
+[Tail call](https://en.wikipedia.org/wiki/Tail_call)
+[27. Tail call optimization ](https://exploringjs.com/es6/ch_tail-calls.html)
+
+[Cool Features of Rust (for Old People) | by Doug Foo | CodeX | Medium ](https://medium.com/codex/cool-features-of-rust-for-old-people-10ba6a0991b6)
+>In Rust there is no Class-Object system, and enums are one of the 4 major building blocks in the language. Enums can also hold values and host functions (hmm sounds like a class..):
+```rust
+enum Number {
+    Rational(i32,i32),
+    Integer(i32),
+    Float(f32)
+}
+impl Number {
+   fn show(&self) {
+       println!("call ({})", self);
+   }
+}
+let n = Number::Integer(20);
+n.show();  // calls show->fmt::Display
+```
+
+>In place of Classes are Traits (along with Enums and Structs), which are kind of like interfaces with more power.
+```rust
+trait Hash {
+  fn hash(&self) -> u64;
+}
+impl Hash for Number {
+  fn hash(&self) -> u64 {
+    if *self { 0 } else { 1 }
+    }
+}
+impl Hash for bool { ... }   // yea this works, crazy cool
+```
+
+
+"The Fatal Flaw of Ownership Semantics" : rust (https://www.reddit.com/r/rust/comments/xc8enj/the_fatal_flaw_of_ownership_semantics/)
+    [media] ripdrag - Drag and Drop utility to make your terminal life easier! : rust (https://www.reddit.com/r/rust/comments/xbssv2/media_ripdrag_drag_and_drop_utility_to_make_your/)
+        xselect - Google Search (https://www.google.com/search?q=xselect&sourceid=chrome&ie=UTF-8)
+        "package.exclude" field of Cargo.toml - Google Search (https://www.google.com/search?q=%22package.exclude%22+field+of+Cargo.toml&sourceid=chrome&ie=UTF-8)
+            The Manifest Format - The Cargo Book (https://doc.rust-lang.org/cargo/reference/manifest.html)
+            The Manifest Format - The Cargo Book (https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/cargo/reference/manifest.html)
+            Change Cargo include/exclude rules to gitignore patterns · Issue #4268 · rust-lang/cargo (https://github.com/rust-lang/cargo/issues/4268)
+        package.exclude - Google Search (https://www.google.com/search?q=package.exclude&sourceid=chrome&ie=UTF-8)
+            Serverless Framework - Packaging (https://www.serverless.com/framework/docs/providers/aws/guide/packaging)
+    The Fatal Flaw of Ownership Semantics - gingerBill (https://www.gingerbill.org/article/2020/06/21/the-ownership-semantics-flaw/)
+    Unsafe Rust - The Rust Programming Language (https://doc.rust-lang.org/book/ch19-01-unsafe-rust.html)
+
+[Why we’ve decided to use Rust-lang | by Edoardo Barp | Jul, 2022 | Medium ](https://barp-edoardo.medium.com/why-weve-decided-to-use-rust-lang-8e38bd1be78f)
+>At X80 Security, we strive at bringing the 4th Generation of Cyber Security to the Enterprise to stop the coming wave of sophisticated Cyber Attacks.
+→ Follow us on Linkedin
+→ Reach out to us
+[Why we’ve decided to use Rust-lang | by Edoardo Barp | Jul, 2022 | Medium ](https://barp-edoardo.medium.com/why-weve-decided-to-use-rust-lang-8e38bd1be78f)
+[(99+) X80 Security: Overview | LinkedIn ](https://www.linkedin.com/company/x80-security/)
+[X80 Security Contact form ](https://docs.google.com/forms/d/e/1FAIpQLSfuZPqM8k0g-gWqH0nd9FYd__jxTsl4ZhB6Y3hvJVTK8DlK7w/viewform)
+[Simulated AI — The 4th Generation of Cyber Defences | by Simon Janin | Medium ](https://sjanin.medium.com/simulated-ai-the-4th-generation-of-cyber-defences-f47b80cfe2b2)
+
+[Game Development with Rust | The Pragmatic Programmers ](https://medium.com/pragmatic-programmers/game-development-with-rust-31147f7b6096)
+
