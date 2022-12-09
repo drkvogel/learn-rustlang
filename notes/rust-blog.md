@@ -773,3 +773,26 @@ impl Hash for bool { ... }   // yea this works, crazy cool
 
 [Game Development with Rust | The Pragmatic Programmers ](https://medium.com/pragmatic-programmers/game-development-with-rust-31147f7b6096)
 
+[Rust for Non-Systems Programmers ](https://becca.ooo/rustconf/2020/#/)
+[RustConf 2020 - Rust for Non-Systems Programmers by Rebecca Turner](https://www.youtube.com/watch?v=BBvcK_nXUEg)
+
+[https://www.diigo.com ](https://www.diigo.com/user/chrisjbird/?page=3&query=rustlang)
+[Rust for Old People. How life after C, C++, and Python feels…  by Doug Foo  CodeX  Medium ](https://medium.com/codex/rust-for-old-people-516fc72b2934)
+[Mental models for learning Rust ](https://kerkour.com/rust-mental-models)
+[Rust and OpenCV. We all know why Rust is so great…  by Jonathan Österberg  Dev Genius ](https://blog.devgenius.io/rust-and-opencv-bb0467bf35ff)
+[rust - What are the identifiers denoted with a single apostrophe (')?](https://stackoverflow.com/questions/22048673/what-are-the-identifiers-denoted-with-a-single-apostrophe)
+[Learn Rust Programming: The Complete Developer's Guide  Zero To Mastery ](https://zerotomastery.io/courses/learn-rust/)
+
+[rust iced vs egui](https://www.google.com/search?q=rust+iced+vs+egui&ie=UTF-8)
+[egui or iced or druid? : rust ](https://www.reddit.com/r/rust/comments/th0m45/egui_or_iced_or_druid/)
+>Egui has been a pleasure to work with, and Bevy as well. Unless you direly need accessibility, Egui is the best gui library for Rust right now.
+>dioxus is worth a shot. It’s extremely pleasant to work with it, since it’s basically react but in rust.
+>SoSmartFlow OP But I don't know react
+>Mag_SG 8 mo. ago Then you should read their book. It explains the basic concepts very well, with lots of code examples. https://dioxuslabs.com/guide/index.html
+>Difficult_Owl493 WOW!!!!This Really Great!!! Egui is easy to use, but the layout and style sucks. React NO1!
+
+[State of Rust GUI in 2021? : rust ](https://www.reddit.com/r/rust/comments/rgyqov/comment/honc023/)
+[Iced vs Egui? : learnrust ](https://www.reddit.com/r/learnrust/comments/nehewg/iced_vs_egui/)
+[Egui vs iced in regards to game engine integration - The Rust Programming Language Forum ](https://users.rust-lang.org/t/egui-vs-iced-in-regards-to-game-engine-integration/74569)
+[Recommended Rust GUI Libraries : rust ](https://www.reddit.com/r/rust/comments/q14xu0/recommended_rust_gui_libraries/)
+
