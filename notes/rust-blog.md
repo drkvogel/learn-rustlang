@@ -750,17 +750,17 @@ impl Hash for bool { ... }   // yea this works, crazy cool
 ```
 
 
-"The Fatal Flaw of Ownership Semantics" : rust (https://www.reddit.com/r/rust/comments/xc8enj/the_fatal_flaw_of_ownership_semantics/)
-    [media] ripdrag - Drag and Drop utility to make your terminal life easier! : rust (https://www.reddit.com/r/rust/comments/xbssv2/media_ripdrag_drag_and_drop_utility_to_make_your/)
-        xselect - Google Search (https://www.google.com/search?q=xselect&sourceid=chrome&ie=UTF-8)
-        "package.exclude" field of Cargo.toml - Google Search (https://www.google.com/search?q=%22package.exclude%22+field+of+Cargo.toml&sourceid=chrome&ie=UTF-8)
-            The Manifest Format - The Cargo Book (https://doc.rust-lang.org/cargo/reference/manifest.html)
-            The Manifest Format - The Cargo Book (https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/cargo/reference/manifest.html)
-            Change Cargo include/exclude rules to gitignore patterns · Issue #4268 · rust-lang/cargo (https://github.com/rust-lang/cargo/issues/4268)
-        package.exclude - Google Search (https://www.google.com/search?q=package.exclude&sourceid=chrome&ie=UTF-8)
-            Serverless Framework - Packaging (https://www.serverless.com/framework/docs/providers/aws/guide/packaging)
-    The Fatal Flaw of Ownership Semantics - gingerBill (https://www.gingerbill.org/article/2020/06/21/the-ownership-semantics-flaw/)
-    Unsafe Rust - The Rust Programming Language (https://doc.rust-lang.org/book/ch19-01-unsafe-rust.html)
+["The Fatal Flaw of Ownership Semantics" : rust ](https://www.reddit.com/r/rust/comments/xc8enj/the_fatal_flaw_of_ownership_semantics/)
+[media ripdrag - Drag and Drop utility to make your terminal life easier! : rust ](https://www.reddit.com/r/rust/comments/xbssv2/media_ripdrag_drag_and_drop_utility_to_make_your/)
+[xselect](https://www.google.com/search?q=xselect&ie=UTF-8)
+["package.exclude" field of Cargo.toml](https://www.google.com/search?q=%22package.exclude%22+field+of+Cargo.toml&ie=UTF-8)
+[The Manifest Format - The Cargo Book ](https://doc.rust-lang.org/cargo/reference/manifest.html)
+[The Manifest Format - The Cargo Book ](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/cargo/reference/manifest.html)
+[Change Cargo include/exclude rules to gitignore patterns · Issue #4268 · rust-lang/cargo ](https://github.com/rust-lang/cargo/issues/4268)
+[package.exclude](https://www.google.com/search?q=package.exclude&ie=UTF-8)
+[Serverless Framework - Packaging ](https://www.serverless.com/framework/docs/providers/aws/guide/packaging)
+[The Fatal Flaw of Ownership Semantics - gingerBill ](https://www.gingerbill.org/article/2020/06/21/the-ownership-semantics-flaw/)
+[Unsafe Rust - The Rust Programming Language ](https://doc.rust-lang.org/book/ch19-01-unsafe-rust.html)
 
 [Why we’ve decided to use Rust-lang | by Edoardo Barp | Jul, 2022 | Medium ](https://barp-edoardo.medium.com/why-weve-decided-to-use-rust-lang-8e38bd1be78f)
 >At X80 Security, we strive at bringing the 4th Generation of Cyber Security to the Enterprise to stop the coming wave of sophisticated Cyber Attacks.
@@ -796,3 +796,9 @@ impl Hash for bool { ... }   // yea this works, crazy cool
 [Egui vs iced in regards to game engine integration - The Rust Programming Language Forum ](https://users.rust-lang.org/t/egui-vs-iced-in-regards-to-game-engine-integration/74569)
 [Recommended Rust GUI Libraries : rust ](https://www.reddit.com/r/rust/comments/q14xu0/recommended_rust_gui_libraries/)
 
+
+
+### Rust colour
+
+[Rusty colour themes : rust ](https://www.reddit.com/r/rust/comments/dsbdmg/rusty_colour_themes/)
+From footer of [Rust Foundation - Logo Policy and Media Guide ](https://foundation.rust-lang.org/policies/logo-policy-and-media-guide/): `#f46624`
