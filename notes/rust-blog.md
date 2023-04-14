@@ -802,3 +802,10 @@ impl Hash for bool { ... }   // yea this works, crazy cool
 
 [Rusty colour themes : rust ](https://www.reddit.com/r/rust/comments/dsbdmg/rusty_colour_themes/)
 From footer of [Rust Foundation - Logo Policy and Media Guide ](https://foundation.rust-lang.org/policies/logo-policy-and-media-guide/): `#f46624`
+
+[Rust: Result Type Explained. Understanding the Rust Result type for…  by Pascal Zwikirsch  Dec, 2022  Level Up Coding ](https://levelup.gitconnected.com/rust-result-type-explained-c0162b363a5f)
+
+
+### Rust Nation UK 2023 videos
+
+[Rust Nation UK 2023](https://www.youtube.com/playlist?list=PL1AoGvxomykTuOMzY5KrI4WiPCsIlYnAM)
