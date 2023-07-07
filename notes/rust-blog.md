@@ -809,3 +809,27 @@ From footer of [Rust Foundation - Logo Policy and Media Guide ](https://foundati
 ### Rust Nation UK 2023 videos
 
 [Rust Nation UK 2023](https://www.youtube.com/playlist?list=PL1AoGvxomykTuOMzY5KrI4WiPCsIlYnAM)
+
+### RustConf 2023 Fiasco
+
+[Carter Anderson on Twitter: "I use Rust because there is literally nothing else on the market like it. The character of other "similar" languages (Zig, Go, C++, Jai, etc) is completely different. The developer community is the best I have ever been in, despite the hiccups here and there." / Twitter ](https://twitter.com/cart_cart/status/1664064410086780931)
+[The RustConf Keynote Fiasco, explained ](https://fasterthanli.me/articles/the-rustconf-keynote-fiasco-explained#a-bit-of-context)
+[Rust: The wrong people are resigning ](https://fasterthanli.me/articles/rust-the-wrong-people-are-resigning)
+[mod team resignation by BurntSushi · Pull Request #671 · rust-lang/team ](https://github.com/rust-lang/team/pull/671)
+[I Am No Longer Speaking at RustConf 2023  The Pasture ](https://thephd.dev/i-am-no-longer-speaking-at-rustconf-2023)
+[A Mirror for Rust: Compile-Time Reflection Report - Shepherd's Oasis ](https://soasis.org/posts/a-mirror-for-rust-a-plan-for-generic-compile-time-introspection-in-rust/)
+[Rust](https://www.youtube.com/@RustVideos)
+[Why I left Rust ](https://www.jntrnr.com/why-i-left-rust/)
+[RustConf](https://www.google.com/search?q=RustConf&ie=UTF-8)
+[On the RustConf keynote  Rust Blog ](https://blog.rust-lang.org/2023/05/29/RustConf.html)
+[A post on the RustConf keynote fiasco LWN.net ](https://lwn.net/Articles/933486/)
+[Stepping Down From RustConf and Rust Project Controversy](https://www.youtube.com/watch?v=TB0cXGvuw9A)
+[I Am No Longer Speaking at RustConf 2023  The Pasture ](https://thephd.dev/i-am-no-longer-speaking-at-rustconf-2023)
+[⭐ About  The Pasture ](https://thephd.dev/about/)
+[⭐ JeanHeyd Meneide  LinkedIn ](https://www.linkedin.com/in/thephd/)
+[Björkus "Fix It Or Die Trying" Dorkus (@__phantomderp) / Twitter ](https://twitter.com/__phantomderp/)
+[derpconf 2020 - Derp - The... Community?](https://www.youtube.com/watch?v=vaLKm9FE8oo)
+[ThePhD (The Phantom Derpstorm) ](https://github.com/ThePhD)
+[JeanHeyd Meneide](https://www.google.com/search?q=JeanHeyd+Meneide&ie=UTF-8)
+[Interview with JeanHeyd Meneide, Project Editor the ISO C standard](https://www.youtube.com/watch?v=A1NcqcURfWc)
+

@@ -3,6 +3,10 @@
 
 ### Rust Standard Paths crate
 
+In `bevy/examples`, cloned a game `github.com:gardum-game/gardum` and tried to run it, compile errored with:
+
+>error[E0599]: no method named `standard_locations_impl` found for reference `&StandardPaths` in the current scope
+
 ```
 23/05/2 20:31:26 kvogel@kvogel-macbook-2021:~/projects/general/dev/learn/learn-rustlang/bevy/examples ±(master)
 ❯ git clone git@github.com:gardum-game/gardum.git
@@ -34,7 +38,7 @@ For more information about an error, try `rustc --explain E0425`.
 error: could not compile `standard_paths` due to 3 previous errors
 ```
 
-`/Users/kvogel/.cargo/registry/src/github.com-1ecc6299db9ec823/standard_paths-1.1.0/README.md`
+In the [README](file:///Users/kvogel/.cargo/registry/src/github.com-1ecc6299db9ec823/standard_paths-1.1.0/README.md):
 >Currently implemented for Linux and Windows
 >macOS is currently unsupported. If you want to help with macOS feel free to contribute!
 
@@ -49,6 +53,9 @@ error: could not compile `standard_paths` due to 3 previous errors
 [mentaljam/standard_paths: A Rust port of QStandardPaths class which provides methods for accessing standard paths on the local filesystem (config, cache, user directories and etc.). ](https://github.com/mentaljam/standard_paths)
 
 [Add macOS support · Issue #2 · mentaljam/standard_paths ](https://github.com/mentaljam/standard_paths/issues/2)
+
+[diff](/diff.md) between [github repo](/standard_paths/README.md) and [cargo-installed lib](file:///Users/kvogel/.cargo/registry/src/github.com-1ecc6299db9ec823/standard_paths-1.1.0/README.md)
+
 
 
 ```
