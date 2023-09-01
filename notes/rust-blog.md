@@ -833,3 +833,6 @@ From footer of [Rust Foundation - Logo Policy and Media Guide ](https://foundati
 [JeanHeyd Meneide](https://www.google.com/search?q=JeanHeyd+Meneide&ie=UTF-8)
 [Interview with JeanHeyd Meneide, Project Editor the ISO C standard](https://www.youtube.com/watch?v=A1NcqcURfWc)
 
+---
+
+[Rust and TUI: A Romantic Affair. Rust: A brief history  by Tapas Das  Medium ](https://tdtapas.medium.com/rust-and-tui-a-romantic-affair-a96925da32ac)
