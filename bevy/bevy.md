@@ -108,7 +108,35 @@ Rust by Example: learn Rust by working through live coding examples
 [Steamworks SDK (Steamworks Documentation) ](https://partner.steamgames.com/doc/sdk)
 
 [ramirezmike/not_snake_game: A snake-inspired game made in Rust using the Bevy game engine. ](https://github.com/ramirezmike/not_snake_game)
-[Not Snake by Michael Ramirez ](https://ramirezmike2.itch.io/not-snake)
+
+
+### Not Snake
+
+[Not Snake by Michael Ramirez ](https://ramirezmike2.itch.io/not-snake) - this is great! 2023-09-28 17:27:02 downloaded
+[Michael Ramirez - itch.io ](https://ramirezmike2.itch.io/)
+[¿Quién es el Mechaburro? by Michael Ramirez ](https://ramirezmike2.itch.io/quien-es-el-mechaburro)
+[Chasing Donuts by Michael Ramirez ](https://ramirezmike2.itch.io/chasing-donuts)
+
+
+[Adam Millard](https://www.google.com/search?q=Adam+Millard&ie=UTF-8)
+[adam millard games](https://www.google.com/search?q=adam+millard+games)
+[Adam Millard - The Architect of Games](https://www.youtube.com/channel/UCY3A_5R_m3PXCn5XDhvBBsg)
+[6 Lessons from Hollow Knight's immersive tutorial](https://www.youtube.com/watch?v=vWiDS8SUvds)
+
+
+
+[Kick Bastards by Something Something Games ](https://ssgames.itch.io/kick-bastards)
+[Dead Terminal (Prototype Demo) by olinkalex ](https://olinkalex.itch.io/dead-terminal-prototype-demo#download)
+[MAMIYA Demo on Mac! A Shared Illusion of the World's End by Fruitbat Factory ](https://fruitbat-factory.itch.io/mamiya/devlog/612996/mamiya-demo-now-available-on-mac)
+[Leylines, now also for Linux! - Leylines by Crystal Shard ](https://radiant.itch.io/leylines/devlog/612936/leylines-now-also-for-linux)
+
+### itch.io
+
+[Download the latest indie games - itch.io ](https://itch.io/)
+[My feed - itch.io ](https://itch.io/my-feed)
+[drkvogel - itch.io ](https://drkvogel.itch.io/)
+
+
 [TheRealTeamFReSh/MurderUserDungeon: A game made for the Rusty Jam https://itch.io/jam/rusty-jam ](https://github.com/TheRealTeamFReSh/MurderUserDungeon)
 [bonsairobo/bevy_rider: Classic Line Rider implemented with the Bevy engine and Rapier 2D. ](https://github.com/bonsairobo/bevy_rider)
 [rparrett/taipo: Japanese Typing Tower Defense ](https://github.com/rparrett/taipo)

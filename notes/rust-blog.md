@@ -836,3 +836,83 @@ From footer of [Rust Foundation - Logo Policy and Media Guide ](https://foundati
 ---
 
 [Rust and TUI: A Romantic Affair. Rust: A brief history  by Tapas Das  Medium ](https://tdtapas.medium.com/rust-and-tui-a-romantic-affair-a96925da32ac)
+
+### Intellisense not working
+
+2024-05-09 17:37:44
+
+enabled [rust-analyzer - Visual Studio Marketplace ](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) extension for workplace - official rust-lang.org extension
+
+not working?
+
+Update rust:
+```
+# 24/05/9 17:36:41 kvogel@kvogel-macbook-2021:~/projects/general/dev/learn/learn-rustlang ±(master) ✗
+$ rustup show
+Default host: aarch64-apple-darwin
+rustup home:  /Users/kvogel/.rustup
+
+stable-aarch64-apple-darwin (default)
+rustc 1.77.0 (aedd173a2 2024-03-17)
+# 24/05/9 17:36:44 kvogel@kvogel-macbook-2021:~/projects/general/dev/learn/learn-rustlang ±(master) ✗
+$ rustup update
+info: syncing channel updates for 'stable-aarch64-apple-darwin'
+info: latest update on 2024-05-02, rust version 1.78.0 (9b00956e5 2024-04-29)
+...
+```
+
+#### Trigger
+
+try to trigger manually: `ctrl+space` - usually triggers intellisense/code completion in vscode, but changed keyboard layout!
+[Resolving Intellisense Autosuggest (Ctrl + Space) Issues in VS Code on macOS Ventura and Sonoma - DEV Community ](https://dev.to/tonadev/resolving-intellisense-autosuggest-ctrl-space-issues-in-vs-code-on-macos-ventura-and-sonoma-58a4)
+
+disabled system-wide (Mac Sonoma) shortcut for "select previous input source" (i.e. previous keyboard layout - GB, ES, TH, etc). had to search with Settings search bar for "shortcut" to find this setting "Input sources"
+can still use `ctrl+opt+space` for "next input source"
+
+[macos - Visual Studio Code shortcut to display autocomplete list before typing](https://stackoverflow.com/questions/51341555/visual-studio-code-shortcut-to-display-autocomplete-list-before-typing)
+
+can also use `opt+esc` or `cmd+i` for trigger intellisense
+[How to trigger VS Code IntelliSense using keyboard on OS X?](https://stackoverflow.com/questions/56143239/how-to-trigger-vs-code-intellisense-using-keyboard-on-os-x/59774240#59774240)
+>vscode v1.50 added Cmd+I (that's a capital "eye") to also trigger intellisense on the mac, and Ctrl+I on Windows and Linux
+
+```json
+{ "key": "cmd+i", "command": "editor.action.triggerSuggest", "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible" }
+```
+
+but still no work - just get "No suggestions"! for e.g. [rust-by-example/exercises/formatting.rs](/rust-by-example/exercises/formatting.rs)
+
+bc not at root level?
+
+
+
+```
+# 24/05/9 18:53:25 kvogel@kvogel-macbook-2021:~/projects/general/dev/learn/learn-rustlang/tmp/rust-test ±(master) ✗
+$ cargo init
+    Creating binary (application) package
+      Adding `rust-test` as member of workspace at `/Users/kvogel/projects/general/dev/learn/learn-rustlang`
+note: see more `Cargo.toml` keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# 24/05/9 18:53:30 kvogel@kvogel-macbook-2021:~/projects/general/dev/learn/learn-rustlang/tmp/rust-test ±(master) ✗
+$ code .
+```
+
+/Users/kvogel/projects/general/dev/learn/learn-rustlang/tmp/rust-test/src/main.rs
+
+it works! oorah
+in a new rust project (module?), in a new vscode workspace (folder)... in /src/main.rs
+
+in [`/src/main.rs`](/src/main.rs) in this repo as well
+
+added
+
+```rs
+mod hello;
+```
+to top of [`/src/main.rs`](/src/main.rs). Now, if I change `fn main` to `fn hello` in [`/src/hello.rs`](/src/hello.rs), (as `fn main` is already declared in `main.rs`), code completion works there as well
+
+Rust Visual Studio Code code completion not working - Stack Overflow (https://stackoverflow.com/questions/64286382/rust-visual-studio-code-code-completion-not-working)
+>If your file is not added to mod.rs VSCode will fail to recognize as a project file, and hence the autocomplete suggestions may not work. Or in main.rs your module is not listed at the top:
+```rs
+mod file_model;
+mod utils;
+```
+mod.rs - Serbian furniture manufacturers! [About us  MOD  High quality solid wood furniture  mod.rs ](https://mod.rs/about-us/)

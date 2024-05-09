@@ -6,7 +6,7 @@
 
 >hadowing is different from marking a variable as mut, because we’ll get a compile-time error if we accidentally try to reassign to this variable without using the let keyword. By using let, we can perform a few transformations on a value but have the variable be immutable after those transformations have been completed.
 
->The other difference between mut and shadowing is that because we’re effectively creating a new variable when we use the let keyword again, we can change the type of the value but reuse the same name. 
+>The other difference between mut and shadowing is that because we’re effectively creating a new variable when we use the let keyword again, we can change the type of the value but reuse the same name.
 
 >how do you know which type of integer to use? If you’re unsure, Rust’s defaults are generally good choices, and integer types default to i32: this type is generally the fastest, even on 64-bit systems. The primary situation in which you’d use isize or usize is when indexing some sort of collection.
 
@@ -37,7 +37,7 @@ let (x, y, z) = tup; // pattern matching/destructuring
 
 >Functions can return values to the code that calls them. We don’t name return values, but we do declare their type after an arrow (->).
 
->You can return early from a function by using the return keyword and specifying a value, but most functions return the last expression implicitly. 
+>You can return early from a function by using the return keyword and specifying a value, but most functions return the last expression implicitly.
 
 
 gtk-rs
@@ -128,10 +128,10 @@ learn-rustlang.git clone?
 >I predict that Bevy will surpass Amethyst in terms of features very soon and will be a proper engine usable for a full game in a few months (although people (incl. myself) are working on "serious" game projects in Bevy already).
 
 [Bevy Engine – Addressing the elephant in the room - Community - Amethyst Forums ](https://community.amethyst.rs/t/bevy-engine-addressing-the-elephant-in-the-room/1645)
->Bevy is essentially a Amethyst Engine 2.0. 
+>Bevy is essentially a Amethyst Engine 2.0.
 >Bevy ECS 58 is a fork of hecs 95 which in turn is a trimmed down version of Legion. Bevy’s additions brings its ECS back full circle to something quite similar to the newest Legion v0.3.
 
->Bevy is pursuing a Godot-style approach to its Editor UI, which is to develop its in-game UI and Editor UI as one unified project. 
+>Bevy is pursuing a Godot-style approach to its Editor UI, which is to develop its in-game UI and Editor UI as one unified project.
 
 >What's a BEVY? A bevy is a group of birds!
 
@@ -159,8 +159,10 @@ learn-rustlang.git clone?
 [jcornaz/heron: An ergonomic physics API for bevy games. ](https://github.com/jcornaz/heron)
 [james7132/bevy-steamworks: A Bevy plugin for integrating with the Steamworks SDK ](https://github.com/james7132/bevy-steamworks)
 [Steamworks SDK (Steamworks Documentation) ](https://partner.steamgames.com/doc/sdk)
+
 [ramirezmike/not_snake_game: A snake-inspired game made in Rust using the Bevy game engine. ](https://github.com/ramirezmike/not_snake_game)
 [Not Snake by Michael Ramirez ](https://ramirezmike2.itch.io/not-snake)
+
 [github.com ](https://github.com/TheRealTeamFReSh/MurderUserDungeon)
 [github.com ](https://github.com/bonsairobo/bevy_rider)
 [github.com ](https://github.com/rparrett/taipo)

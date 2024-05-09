@@ -10,7 +10,7 @@ tcod = "0.15"
 ```
 
 ```
-20/10/24 4:56:44 kvogel-macbook-2018:~/Projects-learn/learn-rust/roguelike ±(master) ✗ 
+20/10/24 4:56:44 kvogel-macbook-2018:~/Projects-learn/learn-rust/roguelike ±(master) ✗
 ❯ cargo run --release
     Blocking waiting for file lock on package cache
     Updating crates.io index
@@ -35,13 +35,13 @@ Hello, world!
 [Cargo Package Cache is Locked? - help - The Rust Programming Language Forum ](https://users.rust-lang.org/t/cargo-package-cache-is-locked/34594)
 
 ```
-20/10/24 5:01:43 kvogel-macbook-2018:~/Projects-learn/learn-rust/roguelike ±(master) ✗ 
+20/10/24 5:01:43 kvogel-macbook-2018:~/Projects-learn/learn-rust/roguelike ±(master) ✗
 ❯ curl -O  https://github.com/tomassedovic/tcod-rs/raw/master/fonts/arial10x10.png
 ❯ lr
 -rw-r--r--  1 kvogel  staff   148B 24 Oct 05:01 arial10x10.png
 
-20/10/24 5:08:23 kvogel-macbook-2018:~/Projects-learn/learn-rust/roguelike ±(master) ✗ 
-❯ cargo run              
+20/10/24 5:08:23 kvogel-macbook-2018:~/Projects-learn/learn-rust/roguelike ±(master) ✗
+❯ cargo run
     Finished dev [unoptimized + debuginfo] target(s) in 0.01s
      Running `target/debug/roguelike`
 objc[82736]: Class SDLApplication is implemented in both /usr/local/opt/sdl2/lib/libSDL2-2.0.0.dylib (0x10bb3fa18) and /opt/local/lib/libSDL2-2.0.0.dylib (0x10ba19630). One of the two will be used. Which one is undefined.
@@ -67,14 +67,14 @@ drwxr-xr-x  3 kvogel  staff    96B 24 Oct 04:54 notes/
 drwxr-xr-x  3 kvogel  staff    96B 24 Oct 05:08 src/
 drwxr-xr-x@ 7 kvogel  staff   224B 24 Oct 04:56 target/
 
-❯ file arial10x10.png 
+❯ file arial10x10.png
 arial10x10.png: HTML document text, ASCII text, with no line terminators
 ```
 >you might check whether arial10x10.png is actually an image; libtcod gives the same error message whether the file doesn't exist or it just can't be read.  When I first did the tutorial, I accidentally downloaded the github html page for the image instead of the image itself.
 
->The -L flag instructs cURL to follow any redirect so that you reach the eventual endpoint. 
+>The -L flag instructs cURL to follow any redirect so that you reach the eventual endpoint.
 ```
-20/10/24 5:09:27 kvogel-macbook-2018:~/Projects-learn/learn-rust/roguelike ±(master) ✗ 
+20/10/24 5:09:27 kvogel-macbook-2018:~/Projects-learn/learn-rust/roguelike ±(master) ✗
 ❯ curl -OL  https://github.com/tomassedovic/tcod-rs/raw/master/fonts/arial10x10.png
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
@@ -86,17 +86,12 @@ arial10x10.png: PNG image data, 320 x 80, 8-bit/color RGB, non-interlaced
 ```
 
 ```
-20/10/24 5:11:14 kvogel-macbook-2018:~/Projects-learn/learn-rust/roguelike ±(master) ✗ 
-❯ cargo run                                                                        
+20/10/24 5:11:14 kvogel-macbook-2018:~/Projects-learn/learn-rust/roguelike ±(master) ✗
+❯ cargo run
     Finished dev [unoptimized + debuginfo] target(s) in 0.10s
      Running `target/debug/roguelike`
 ```
 get a black window with an `@` in the corner. Cool!
-
-
-
-
-
 
 
 ### Class SDLApplication is implemented in both...
