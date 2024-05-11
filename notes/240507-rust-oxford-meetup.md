@@ -1,6 +1,7 @@
 
 
 [More Rust - Generics, constraints, safety., Tue, May 7, 2024, 6:30 PM  Meetup ](https://www.meetup.com/oxford-rust-meetup-group/events/300567559/)
+[Telegram: Join Group Chat ](https://t.me/+dZcISvFK4SgzMzhk)
 
 Rusty
 Rust

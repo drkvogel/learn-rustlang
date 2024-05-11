@@ -916,3 +916,9 @@ mod file_model;
 mod utils;
 ```
 mod.rs - Serbian furniture manufacturers! [About us  MOD  High quality solid wood furniture  mod.rs ](https://mod.rs/about-us/)
+
+2024-05-10 11:25:31
+
+[Rust for Old People. How life after C, C++, and Python feels…  by Doug Foo  CodeX  Medium ](https://medium.com/codex/rust-for-old-people-516fc72b2934)
+>I thought I should see if there is any tail call optimization (TCO) by rewriting fib to be tail-recursive. It isn’t a necessary feature, but I was just curious. In order for a tail call to eliminate stack frames, it has to carry all the parameters in the tail-call function itself. I was going to do a memoized version as well but it seems Rust doesn’t have a cache/memoize built-in to the core language yet.
+
